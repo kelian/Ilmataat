@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ilmataat</string>
+    <string name="no_connection">Ma ei leidnud internetiühendust :(</string>
+    <string name="retry">Proovi uuesti</string>
+    <string name="xml_error">Midagi läks xmliga valesti</string>
+    <string name="night">ÖÖ</string>
+    <string name="day">PÄEV</string>
+    <string name="four_day_forecast">4 ööpäeva prognoos</string>
+    <string name="edit_place">Muuda asukohta</string>
+</resources>
