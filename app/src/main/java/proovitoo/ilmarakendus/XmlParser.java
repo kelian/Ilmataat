@@ -229,11 +229,18 @@ public class XmlParser {
             }
         }
 
-        if (speedmin < wind[0]) {
+        // initilizes wind argumentss
+        if (wind[0] == 0 && wind[1] == 0) {
             wind[0] = speedmin;
-        }
-        if (speedmax > wind[1]) {
             wind[1] = speedmax;
+        } else {
+
+            if (speedmin < wind[0]) {
+                wind[0] = speedmin;
+            }
+            if (speedmax > wind[1]) {
+                wind[1] = speedmax;
+            }
         }
 
         return wind;
