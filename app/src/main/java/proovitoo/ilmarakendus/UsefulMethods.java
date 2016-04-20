@@ -66,6 +66,7 @@ public class UsefulMethods {
             case "Moderate shower": return "Mõõdukas hoovihm";
             case "Light shower": return "Nõrk hoovihm";
             case "Overcast": return "Pilves";
+            case "Moderate rain": return "Mõõdukas vihm";
             default: return "Selge";
         }
     }
@@ -93,6 +94,8 @@ public class UsefulMethods {
             case "Overcast":
                 return R.drawable.ic_weather_cloudy_grey600_48dp;
             case "Moderate shower":
+                return R.drawable.ic_weather_pouring_grey600_48dp;
+            case "Moderate rain":
                 return R.drawable.ic_weather_pouring_grey600_48dp;
             default:
                 return R.drawable.ic_weather_night_grey600_48dp;
