@@ -1,7 +1,5 @@
 # Ilmataat
-Weather app
-
-Made with Android Studio
+First Android project - Weather app (Apr 2016)
 
 [Download here!](https://www.dropbox.com/s/xxv1gasd8aijub8/ilmataat.apk?dl=0)
 
